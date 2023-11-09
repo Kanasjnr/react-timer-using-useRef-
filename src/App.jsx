@@ -1,14 +1,7 @@
 import { useState, useEffect } from "react";
 
-
-
 const App = () => {
-
   const [randomInput, setRandomInput] = useState("");
-
- 
-
-
 
   return (
     <main className="App">
