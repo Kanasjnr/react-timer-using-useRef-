@@ -13,14 +13,10 @@ const App = () => {
       />
       <p>Renders: {randomInput}</p>
 
-      <br/>
-      <br/>
+      <br />
+      <br />
 
-    <section>
-      
-    </section>
-
-
+      <section></section>
     </main>
   );
 };
