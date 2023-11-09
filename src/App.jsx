@@ -8,6 +8,8 @@ const App = () => {
 
   const inputRef = useRef();
 
+  const timerId = useRef();
+
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
 
