@@ -42,7 +42,6 @@ const App = () => {
       <br />
 
       <section>
-        
         <button>Stop</button>
         <button onClick={startTimer}>Start</button>
       </section>
