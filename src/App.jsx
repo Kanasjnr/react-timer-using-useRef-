@@ -5,26 +5,13 @@ const App = () => {
 
   return (
     <main className="App">
-      <label>Fibonacci Sequence:</label>
-      <input
-        type="text"
-        placeholder="position"
-        value={userInput}
-        onChange={(e) => setUserInput(e.target.value)}
-      />
-      <p>Number: {fibNumber || "--"}</p>
-
-      <br />
-      <br />
-
-      <label> Random Input:</label>
       <input
         type="text"
         value={randomInput}
         placeholder="Type anything"
         onChange={(e) => setRandomInput(e.target.value)}
       />
-      <p>Result: {randomInput}</p>
+      <p>Renders: {randomInput}</p>
     </main>
   );
 };
