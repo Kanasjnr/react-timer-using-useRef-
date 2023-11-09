@@ -25,9 +25,12 @@ const App = () => {
 
       <br/>
       <br/>
-      
+
       <p>Seconds:</p>
 
+      <br/>
+      <br/>
+      
     </main>
   );
 };
