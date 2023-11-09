@@ -22,7 +22,10 @@ const App = () => {
       </section>
 
       <button>Reset</button>
-      
+
+      <br/>
+      <br/>
+      <p>Seconds:</p>
     </main>
   );
 };
