@@ -10,6 +10,10 @@ const App = () => {
 
   const timerId = useRef();
 
+  const startTimer = () =>{
+    
+  }
+
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
 
