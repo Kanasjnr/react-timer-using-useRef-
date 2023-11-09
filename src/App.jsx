@@ -51,7 +51,7 @@ const App = () => {
       <br />
       <br />
 
-      <p>Seconds:</p>
+      <p>Seconds: {Seconds}</p>
 
       <br />
       <br />
