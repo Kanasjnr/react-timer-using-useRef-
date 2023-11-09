@@ -14,9 +14,9 @@ const App = () => {
     renders.current++
   }
 
-  const focusOnInput = () =>{
-    inputRef.current.focus()
-  }
+  //const focusOnInput = () =>{
+    //inputRef.current.focus()
+ // }
 
 
 
