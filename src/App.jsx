@@ -12,9 +12,14 @@ const App = () => {
         onChange={(e) => setRandomInput(e.target.value)}
       />
       <p>Renders: {randomInput}</p>
+
+      <br/>
+      <br/>
+
+    <section>
       
-      <br/>
-      <br/>
+    </section>
+
 
     </main>
   );
