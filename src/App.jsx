@@ -15,6 +15,7 @@ const App = () => {
       renders.current++;
       setSeconds((prev) => prev + 1);
     }, 1000);
+    inputRef.current.focus()
   };
 
   const stopTimer = () => {
