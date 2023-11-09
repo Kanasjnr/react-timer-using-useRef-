@@ -17,7 +17,10 @@ const App = () => {
     }, 1000);
   };
 
-  const stopTimer = 
+  const stopTimer = () => {
+    clearInterval(timerId.current)
+    timerId.current = 0
+  }
 
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
