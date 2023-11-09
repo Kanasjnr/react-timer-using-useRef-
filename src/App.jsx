@@ -24,6 +24,11 @@ const App = () => {
     inputRef.current.focus();
   };
 
+  const resetTimer = () => {
+    startTimer()
+    inputRef.current.focus();
+  }
+
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
 
