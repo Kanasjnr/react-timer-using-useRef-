@@ -17,9 +17,10 @@ const App = () => {
       <br />
 
       <section>
-        <button></button>
-        <button></button>
+        <button>Start</button>
+        <button>Stop</button>
       </section>
+      <button></button>
     </main>
   );
 };
