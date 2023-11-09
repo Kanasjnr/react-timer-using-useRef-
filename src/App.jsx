@@ -6,6 +6,11 @@ const App = () => {
 
   const renders = useRef(0)
 
+  const handleInputChange = (e) => {
+    setRandomInput(e.target.value)
+  }
+
+
   return (
     <main className="App">
       <input
