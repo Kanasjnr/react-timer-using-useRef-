@@ -4,31 +4,28 @@ const App = () => {
   const [randomInput, setRandomInput] = useState("");
   const [Seconds, setSeconds] = useState(0);
 
-  const renders = useRef(0)
+  const renders = useRef(0);
 
-  const inputRef = useRef()
+  const inputRef = useRef();
 
   const handleInputChange = (e) => {
-    setRandomInput(e.target.value)
+    setRandomInput(e.target.value);
 
-    renders.current++
-  }
+    renders.current++;
+  };
 
   //const focusOnInput = () =>{
-    //inputRef.current.focus()
- // }
-
-
+  //inputRef.current.focus()
+  // }
 
   return (
     <main className="App">
       <input
-      ref={inputRef}
-      onChange={handleInputChange}
+        ref={inputRef}
+        onChange={handleInputChange}
         type="text"
         value={randomInput}
         placeholder="Type anything"
-      
       />
       <p>Renders: {renders.current}</p>
 
@@ -36,20 +33,19 @@ const App = () => {
       <br />
 
       <section>
-      
         <button>Start</button>
         <button>Stop</button>
       </section>
 
       <button>Reset</button>
 
-      <br/>
-      <br/>
+      <br />
+      <br />
 
       <p>Seconds:</p>
 
-      <br/>
-      <br/>
+      <br />
+      <br />
 
       <p>{randomInput}</p>
     </main>
