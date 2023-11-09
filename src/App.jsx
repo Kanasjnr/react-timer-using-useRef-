@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 
 const App = () => {
   const [randomInput, setRandomInput] = useState("");
+  const [Seconds, setSeconds] = useState(0);
 
   return (
     <main className="App">
