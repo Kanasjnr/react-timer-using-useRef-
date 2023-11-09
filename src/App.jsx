@@ -10,12 +10,12 @@ const App = () => {
 
   const timerId = useRef();
 
-  const startTimer = () =>{
-    timerId.current = setInterval(()=>{
-      renders.current++
-      setSeconds(prev => prev +1)
-    },1000)
-  }
+  const startTimer = () => {
+    timerId.current = setInterval(() => {
+      renders.current++;
+      setSeconds((prev) => prev + 1);
+    }, 1000);
+  };
 
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
