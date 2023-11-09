@@ -18,6 +18,7 @@ const App = () => {
 
       <section>
         <button></button>
+        <button></button>
       </section>
     </main>
   );
