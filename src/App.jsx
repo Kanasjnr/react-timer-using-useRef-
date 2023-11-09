@@ -18,6 +18,8 @@ const App = () => {
   return (
     <main className="App">
       <input
+      ref={inputRef}
+      onChange={handleInputChange}
         type="text"
         value={randomInput}
         placeholder="Type anything"
