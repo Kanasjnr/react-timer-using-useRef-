@@ -21,6 +21,7 @@ const App = () => {
   const stopTimer = () => {
     clearInterval(timerId.current);
     timerId.current = 0;
+    inputRef.current.focus();
   };
 
   const handleInputChange = (e) => {
