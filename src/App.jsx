@@ -30,7 +30,7 @@ const App = () => {
         placeholder="Type anything"
       
       />
-      <p>Renders: {randomInput}</p>
+      <p>Renders: {renders.current}</p>
 
       <br />
       <br />
