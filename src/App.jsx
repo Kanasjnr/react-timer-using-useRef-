@@ -20,7 +20,9 @@ const App = () => {
         <button>Start</button>
         <button>Stop</button>
       </section>
-      <button></button>
+
+      <button>Reset</button>
+      
     </main>
   );
 };
