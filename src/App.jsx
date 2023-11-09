@@ -36,6 +36,7 @@ const App = () => {
       <br />
 
       <section>
+      
         <button>Start</button>
         <button>Stop</button>
       </section>
