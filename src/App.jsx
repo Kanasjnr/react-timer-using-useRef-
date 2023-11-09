@@ -62,7 +62,7 @@ const App = () => {
         <button onClick={startTimer}>Start</button>
       </section>
 
-      <button>Reset</button>
+      <button onClick={resetTimer}>Reset</button>
 
       <br />
       <br />
