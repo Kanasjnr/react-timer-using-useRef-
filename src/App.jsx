@@ -42,7 +42,7 @@ const App = () => {
       <br />
 
       <section>
-        <button>Start</button>
+        <button onClick={startTimer}>Start</button>
         <button>Stop</button>
       </section>
 
