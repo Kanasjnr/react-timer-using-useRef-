@@ -17,12 +17,16 @@ const App = () => {
     }, 1000);
   };
 
+  const stopTimer = 
+
   const handleInputChange = (e) => {
     setRandomInput(e.target.value);
 
     renders.current++;
   };
 
+
+    
   //const focusOnInput = () =>{
   //inputRef.current.focus()
   // }
